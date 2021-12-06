@@ -16,7 +16,8 @@ def CalcCategory(item, k):
             return idx
     return k
 
-
+# Tujduk, h 1.69 kompetitiv tehát
+# Annyit tudunkk, h legalább 3 ládát fog használni, mert kicsi átrendezéssel látható
 def HarmonicFit(items, k):
     bins = []
 

@@ -6,7 +6,7 @@ class Bin:
     items: list
     value_sum: float
 
-
+# Az optimum >= summa az i-re nézve ti ahol ti az egyes inputok
 def FindBestBin(bins, item):
     bins.sort(key=lambda bin: bin.value_sum, reverse=True)
 
@@ -16,7 +16,7 @@ def FindBestBin(bins, item):
 
     return None
 
-
+# Annyit tudunkk, h legalább 3 ládát fog használni, mert kicsi átrendezéssel látható
 def BestFit(items):
     bins = [Bin([], 0.0)]
 

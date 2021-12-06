@@ -29,7 +29,8 @@ def GetFirstFittingShelf(shelves, item, r):
 
     return None, fitting_shelf_class
 
-
+# az opt summa vi * hi
+# az opt legalább annyi mint a legmagasabb tárgy
 def NextFitShelf(items, r):
     shelves = []
 

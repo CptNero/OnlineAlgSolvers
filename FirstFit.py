@@ -6,7 +6,7 @@ class Bin:
     items: list
     value_sum: float
 
-
+# optimumban van
 def FirstFit(items):
     bins = [Bin([], 0.0)]
 

@@ -1,4 +1,7 @@
 
+
+# DC az egyenesen k gyengén versenyképes
+# Az opt <= beta + c(A(theta))/k
 def DoubleCoverage(config, input_list, lazy=False):
     cost_sum = 0
 
@@ -57,6 +60,6 @@ def DoubleCoverage(config, input_list, lazy=False):
 config = [1, 4, 10]
 input_list = [6, 9, 0, 3, 7]
 print(config)
-cost_sum = DoubleCoverage(config, input_list, True)
+cost_sum = DoubleCoverage(config, input_list, False)
 print(f'Cost sum is {cost_sum}')
 

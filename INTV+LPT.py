@@ -1,5 +1,7 @@
 from dataclasses import dataclass
 
+
+
 @dataclass
 class Job:
     proc_time: int
@@ -49,7 +51,8 @@ def lpt(phase, machines):
 
     return machines
 
-
+# Az optimum >= mint 6 mert az lesz a leghosszabb job
+# Online LPT kiadhatja az optimumot
 jobs = [Job(1, 0),
         Job(1, 0),
         Job(2, 0),

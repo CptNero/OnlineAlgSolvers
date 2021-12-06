@@ -1,4 +1,8 @@
 
+
+
+# Mivel 2 komptetitív így tudjuk, h pl ha 30 az eredmény akkor az opt >= 15
+# Mást nem tudunk kiszámolni papíron
 def MoveToFront(input_list, toAccess):
     for idx, elem in enumerate(input_list):
         if elem == toAccess:

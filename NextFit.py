@@ -7,7 +7,7 @@ class Bin:
     value_sum: float
     open: bool
 
-
+# Annyit tudunkk, h legalább 4 ládát fog használni, mert kicsi átrendezéssel látható
 def NextFit(items):
     bins = [Bin([], 0.0, True)]
 

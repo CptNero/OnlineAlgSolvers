@@ -6,6 +6,8 @@ class Element:
     value: int
     bit: bool
 
+# Mivel 1.75 komptetitív így tudjuk, h pl ha 30 az eredmény akkor az opt >= 18
+# Mást nem tudunk kiszámolni papíron
 
 def BIT(input_list, toAccess):
     for idx, elem in enumerate(input_list):
